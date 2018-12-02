@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: antiquewhite;      
+    }
+
+    img, div {
+        position: absolute;
+    }
+    
+    .container {         
+    top:5%;        
+    left:5%;        
+    height: 90%;        
+    width: 90%;        
+    background-color:burlywood;        
+    }
+
+    .img-fondo {
+    top:0;        
+    left:0;
+    height: 100%;    
+    width: 100%; 
+    }
+
+    .sprites {
+        height: 15%;    
+        width: auto;
+        cursor: pointer; 
+    }
+    #imgSesion1 {
+        top: 12%;
+        left: 2%;
+    }
+
+    #imgSesion2 {
+        top: 81%;
+        left: 17%;
+    }
+
+    #imgSesion3 {
+        top: 75%;
+        left: 36%;
+    }
+    #imgHome {
+        top: 4%;
+        left: 88%;
+    }
