@@ -4,7 +4,8 @@
 
 body {
     background-color: black;
-    color: antiquewhite;      
+    color: antiquewhite;  
+    font-family: 'Montserrat', sans-serif;    
     }
 
     img, div {
@@ -49,3 +50,21 @@ body {
         top: 4%;
         left: 88%;
     }
+
+    .div-info {
+        background-color: rgba(32, 16, 0, 0.5);
+        z-index: 900;
+        top: 10%;
+        left: 25%;
+        height: 25%;
+        width: 60%;
+        padding-left: 1em;
+        padding-right: 1em;
+        border-radius: 5px;
+    }
+
+    .no-display {
+        display: none;
+    }
+
+  
