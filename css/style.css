@@ -1,14 +1,15 @@
+/*
 * {
     box-sizing: border-box;
 }
-
+*/
 body {
     background-color: black;
     color: antiquewhite;  
     font-family: 'Montserrat', sans-serif;    
     }
 
-    img, div {
+    .pos-absol, img {
         position: absolute;
     }
     
@@ -28,7 +29,7 @@ body {
     }
 
     .sprites {
-        height: 15%;    
+        height: 10%;    
         width: auto;
         cursor: pointer; 
     }
@@ -47,8 +48,8 @@ body {
         left: 36%;
     }
     #imgHome {
-        top: 4%;
-        left: 88%;
+        top: 6%;
+        left: 83%;
     }
 
     .div-info {
@@ -67,4 +68,26 @@ body {
         display: none;
     }
 
+    #imgVideo {
+        top: 43%;
+        left: 5%;
+    }
+
+    #imgJoystic {
+        top: 63%;
+        left: 5%;
+    }
+
+    #imgLens {
+        top: 83%;
+        left: 5%;
+    }
+
+    .div-visor-video {
+        background-color: #000;
+        top:28%;
+        left: 37%;
+        height: 30%;
+        width: 30%;
+    }
   

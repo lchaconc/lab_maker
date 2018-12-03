@@ -3,6 +3,7 @@ var spriteSelected, nivel = 1 ;
 
 $(document).ready(function () {
     loadEvents();
+    $( document ).tooltip();
 });
 
 function loadEvents() {
@@ -55,7 +56,7 @@ function showInfo() {
   function routing () {    
       switch (spriteSelected) {
           case "imgSesion1":
-            window.location="./pages/engranaje.html"
+            window.location="./pages/sesion1.html"
             break;
             case "imgSesion2":
             $( "#"+spriteSelected ).fadeIn( );
