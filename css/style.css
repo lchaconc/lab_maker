@@ -33,19 +33,31 @@ body {
         width: auto;
         cursor: pointer; 
     }
+
+    .sprites9 {
+        height: 90%;    
+        width: auto;
+        cursor: pointer; 
+    }
+
+    #imgEstante {
+        top: 6%;
+        left: -29%;
+    }
+
     #imgSesion1 {
-        top: 12%;
-        left: 2%;
+        top: 20%;
+        left: 8%;
     }
 
     #imgSesion2 {
-        top: 81%;
-        left: 17%;
+        top: 32%;
+        left: 7%;
     }
 
     #imgSesion3 {
-        top: 75%;
-        left: 36%;
+        top: 34%;
+        left: 16%;
     }
     #imgHome {
         top: 6%;
@@ -55,10 +67,10 @@ body {
     .div-info {
         background-color: rgba(32, 16, 0, 0.5);
         z-index: 900;
-        top: 10%;
-        left: 25%;
+        top: 24%;
+        left: 40%;
         height: 50%;
-        width: 60%;
+        width: 50%;
         padding-left: 1em;
         padding-right: 1em;
         border-radius: 5px;
